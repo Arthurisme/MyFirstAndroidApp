@@ -50,5 +50,6 @@ public class MainActivity extends ActionBarActivity {
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
+        //try github 1
     }
 }
